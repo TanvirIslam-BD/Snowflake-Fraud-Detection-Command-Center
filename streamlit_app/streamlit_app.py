@@ -172,14 +172,6 @@ with bottom_left:
                           "ALERT_COUNT", "MAX_RISK_SCORE", "TOTAL_FLAGGED_AMOUNT"]],
             use_container_width=True,
             hide_index=True,
-            column_config={
-                "MAX_RISK_SCORE": st.column_config.ProgressColumn(
-                    "Risk Score", min_value=0, max_value=100, format="%d"
-                ),
-                "TOTAL_FLAGGED_AMOUNT": st.column_config.NumberColumn(
-                    "Flagged Amount", format="$%.2f"
-                ),
-            }
         )
 
 with bottom_right:
