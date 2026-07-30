@@ -169,9 +169,8 @@ with bottom_left:
     if not top_customers.empty:
         st.dataframe(
             top_customers[["CUSTOMER_ID", "FULL_NAME", "RISK_TIER", "COUNTRY",
-                          "ALERT_COUNT", "MAX_RISK_SCORE", "TOTAL_FLAGGED_AMOUNT"]],
+                          "ALERT_COUNT", "MAX_RISK_SCORE", "TOTAL_FLAGGED_AMOUNT"]].reset_index(drop=True),
             use_container_width=True,
-            hide_index=True,
         )
 
 with bottom_right:
