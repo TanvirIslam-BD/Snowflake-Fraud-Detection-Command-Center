@@ -120,6 +120,8 @@ Every decision includes:
 
 ## Live Dashboard (Streamlit-in-Snowflake)
 
+![Fraud Detection Command Center Dashboard](assets/dashboard-screenshot.png)
+
 The **Fraud Detection Command Center** dashboard is deployed to Snowflake and provides real-time visibility:
 
 - **KPI Metrics** — Total transactions, blocked/held counts, value protected
