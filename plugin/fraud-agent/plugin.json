@@ -1,0 +1,28 @@
+{
+  "name": "fraud-agent",
+  "version": "1.0.0",
+  "description": "Intelligent Fraud Detection & Response Agent - Autonomously monitors financial transactions, detects anomalies using multi-signal analysis, scores risk with AI reasoning, and executes graduated response actions with full audit trails.",
+  "author": "Tanvirul Islam",
+  "skills": [
+    {
+      "name": "detect-fraud",
+      "description": "Master orchestrator - runs the full fraud detection pipeline (anomaly detection → risk scoring → escalation). Use 'Run fraud detection' to execute end-to-end.",
+      "path": "skills/detect-fraud.md"
+    },
+    {
+      "name": "anomaly-detector",
+      "description": "Scans recent transactions for velocity attacks, geo-impossible travel, amount spikes, high-risk merchants, and channel switches.",
+      "path": "skills/anomaly-detector.md"
+    },
+    {
+      "name": "risk-scorer",
+      "description": "Scores flagged transactions 0-100 with natural-language reasoning. Classifies as CLEAR/MONITOR/ALERT/CRITICAL.",
+      "path": "skills/risk-scorer.md"
+    },
+    {
+      "name": "escalation-handler",
+      "description": "Executes graduated actions (dismiss/monitor/hold/block) based on risk scores and logs all decisions to the audit table.",
+      "path": "skills/escalation-handler.md"
+    }
+  ]
+}
